@@ -15,6 +15,8 @@
 get_header(); ?>
 
 	<div id="primary" class="content">
+		
+		<div class="container">
 
 		<div class="row">
 
@@ -35,6 +37,8 @@ get_header(); ?>
 			</main>
 
 			<?php get_sidebar(); ?>
+			
+		</div>
 			
 		</div>
 			
