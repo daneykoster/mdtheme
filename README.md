@@ -6,14 +6,21 @@
 MDTheme
 ===
 
-Install:
+Demo: www.mdtheme.com
+
+Wordpress theme:
+Materialize with _S makes MDTheme.
+
+
+
+install
 
 * Download theme
 * open codekit
 * add project 
 * make something 
+* compile
 
 :-)
 
-Demo: www.mdtheme.com
 
