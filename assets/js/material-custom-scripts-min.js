@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(".button-collapse").sideNav({menuWidth:300,edge:"left",closeOnClick:!0}),$("select").material_select()});

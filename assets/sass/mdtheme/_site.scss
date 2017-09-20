@@ -1,0 +1,34 @@
+// some mdtheme style for better looks
+
+.mdtheme-pagination{
+	display:flex;
+	justify-content:center;
+}
+.user-view{
+	background:#ee6e73;
+}
+.side-nav-brand{
+	color:#fff!important;
+	height:72px!important;
+	font-size:2rem!important;
+	
+}
+
+//background content color
+#content{
+	background:#eeeeee;
+}
+
+// row content fix 
+.row{
+	margin-bottom: 0;
+}
+
+// bugfix rounded search input
+input, textarea, select {
+   -webkit-appearance: button;
+}
+//reset button to max-width
+.btn{
+	max-width:100%;
+}
