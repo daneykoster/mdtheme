@@ -265,3 +265,4 @@ if ( ! function_exists( 'mdtheme_woocommerce_header_cart' ) ) {
 		<?php
 	}
 }
+// add woocommerce styles
