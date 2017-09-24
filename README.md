@@ -9,7 +9,9 @@ MDTheme
 Demo: www.mdtheme.com
 
 Wordpress theme:
-Materialize with _S makes MDTheme.
+Materialize + _S = MDTheme.
+
+A basic starter theme with sass powers!
 
 
 
