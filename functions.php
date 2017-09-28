@@ -193,22 +193,6 @@ function as_adapt_search_form( $form ) {
 add_filter( 'get_search_form', 'as_adapt_search_form' );
 
 
-// remove query from string
-function _remove_script_version( $src ){
-$parts = explode( '?ver', $src );
-return $parts[0];
-}
-add_filter( 'script_loader_src', '_remove_script_version', 15, 1 );
-add_filter( 'style_loader_src', '_remove_script_version', 15, 1 );
-
-//remove p tag from page
-add_action('pre_get_post', 'remove_auto_p_from_page');
-	function remove_auto_p_from_page() {
-		if(is_page){
-		remove_filter( 'the_content', 'wpautop' );
-		remove_filter( 'the_excerpt', 'wpautop' );
-	}
-}
 
 ?>
 
